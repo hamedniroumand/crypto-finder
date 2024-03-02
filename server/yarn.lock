@@ -753,6 +753,11 @@ debug@4, debug@4.3.4, debug@^4, debug@^4.1.1, debug@^4.3.4:
   dependencies:
     ms "2.1.2"
 
+deeks@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/deeks/-/deeks-3.1.0.tgz#ecc47c600bcc6dbda656c6d86bbc96cbe126fd41"
+  integrity sha512-e7oWH1LzIdv/prMQ7pmlDlaVoL64glqzvNgkgQNgyec9ORPHrT2jaOqMtRyqJuwWjtfb6v+2rk9pmaHj+F137A==
+
 define-data-property@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/define-data-property/-/define-data-property-1.1.4.tgz#894dc141bb7d3060ae4366f6a0107e68fbe48c5e"
@@ -785,6 +790,11 @@ devtools-protocol@0.0.1249869:
   version "0.0.1249869"
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1249869.tgz#000c3cf1afc189a18db98135a50d4a8f95a47d29"
   integrity sha512-Ctp4hInA0BEavlUoRy9mhGq0i+JSo/AwVyX2EFgZmV1kYB+Zq+EMBAn52QWu6FbRr10hRb6pBl420upbp4++vg==
+
+doc-path@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/doc-path/-/doc-path-4.1.0.tgz#870d71b31dbbb54200c815e3051ba6a9c48c4a93"
+  integrity sha512-i+hXn5HFwpPOwe8JcvjjQYuUVt0p46Ybi+73g9L43zQUKR6zMyaUAKFwGBMH3NWQDugRWIwxg2+FvvxCv0IG7Q==
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -1320,6 +1330,14 @@ jsbn@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-1.1.0.tgz#b01307cb29b618a1ed26ec79e911f803c4da0040"
   integrity sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==
+
+json-2-csv@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/json-2-csv/-/json-2-csv-5.5.0.tgz#b0881aaf4b842fccc13f7972584ccea8b5a96d19"
+  integrity sha512-1Y4upYpzhoweEMkFDogMU8fKLCs+ciNKviTotrrMZ8duqlycERcB38GYXpu4xcwm6YBn86cTXd7za2yUl0GAkg==
+  dependencies:
+    deeks "3.1.0"
+    doc-path "4.1.0"
 
 json-parse-even-better-errors@^2.3.0, json-parse-even-better-errors@^2.3.1:
   version "2.3.1"
