@@ -2,5 +2,5 @@
   "watch": ["."],
   "ext": "ts,js,json",
   "ignore": ["node_modules"],
-  "exec": "npx tsx ./index.ts"
+  "exec": "npx tsx ./src/index.ts"
 }
