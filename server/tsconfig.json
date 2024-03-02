@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-      "target": "ES5",
-      "module": "CommonJS",
+      "target": "es2022",
+      "module": "es2022",
       "outDir": "./dist",
       "rootDir": ".",
       "strict": true,
@@ -18,7 +18,7 @@
       "inlineSourceMap": true,
       "baseUrl": "./",
       "removeComments": true,
-      "lib": ["dom", "esnext"],
+      "lib": ["ES2017", "DOM", "ES2021.String", "es2020"],
       "paths": {
       }
     },
